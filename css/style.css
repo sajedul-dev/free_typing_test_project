@@ -52,7 +52,7 @@ nav{
 
 #banner{
     background-color: #F6F6F7;
-    padding: 15px 0;
+    padding: 80px 0;
 }
 .banner_btn button{
     border: none;
@@ -62,7 +62,6 @@ nav{
     color: #000;
     font-weight: 700;
     border-radius: 5px;
-    
 }
 .banner_btn button:hover{
     background-color: #000;
@@ -89,7 +88,6 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 25px;
-
 }
 .one{
     width: 100px;
@@ -112,6 +110,67 @@ nav{
     align-items: center;
     justify-content: center;
 }
+.typing{
+    width: 800px;
+    height: 90px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  5px 10px 18px #888888;
+}
+.typing p{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner_main{
+    position: relative;
+}
+.banner_main .typing{
+    position: absolute;
+    left: 180px;
+    top: 500px;
+}
+.global{
+    text-align: center;
+    margin-top: 200px;
+    cursor: pointer;
+}
+.global span{
+    margin-right: 5px;
+}
+.global span:hover{
+    border-bottom: 1px solid red;
+}
+
+/* ============== success part starat ====================  */
+
+#success{
+    padding: 45px 0 150px 0;
+    background-color: #FFD000;
+}
+.success_head{
+    text-align: center;
+}
+.success_head span{
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 4px solid #000;
+}
+.success_head h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 98px;
+}
+.success_head h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 35px;
+
+}
 
 
 
@@ -133,8 +192,6 @@ nav{
 
 
 
-
-/* ================= navbar starat ======================  */
 /* ================= navbar starat ======================  */
 /* ================= navbar starat ======================  */
 /* ================= navbar starat ======================  */
