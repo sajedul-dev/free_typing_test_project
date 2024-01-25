@@ -52,11 +52,15 @@
         top: 245px;
         left: 0px;
     }
-    .success_head h1 {
+    .success_head span {
         font-size: 25px;
-        font-weight: 600;
-        margin-top: 15px;
-        line-height: 35px;
+    }
+    .success_head h1 {
+        font-size: 18px;
+    }
+    .success_head h5 {
+        font-size: 18px;
+        margin-left: 14px;
     }
 
 

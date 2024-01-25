@@ -182,7 +182,7 @@ nav{
     background-color: red;
     position: absolute;
     top: 250px;
-    left: 250px;
+    left: 200px;
 }
 .raja img{
     width: 100%;
@@ -190,6 +190,72 @@ nav{
     object-fit: cover;
 }
 
+/* ================= help part start ======================  */
+
+#help_root{
+    padding: 250px 0 50px 0;
+    background-color: #1B1B20;
+}
+.help_heading{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+.help_heading span i{
+    color: #2FC774;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.heading_2{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+.heading_2 h1{
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.heading_2 p{
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 22px;
+}
+.help_box{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.box_1{
+    width: 370px;
+    height: 300px;
+    background-color: #303037;
+    color: #fff;
+}
+.box_main{
+    margin: 35px 0 0 35px;
+}
+.box_main span i{
+    font-size: 30px;
+    color: #00C057;
+}
+.box_main h2{
+    margin: 25px 0;
+}
+.box_main p{
+    margin: 25px 0;
+    line-height: 22px;
+}
+.box_main a{
+    color: #00C057;
+}
+.box_main a:hover{
+    border-bottom: 2px solid #00C057;
+}
 
 
 
@@ -210,7 +276,7 @@ nav{
 
 
 
-/* ================= navbar starat ======================  */
+
 /* ================= navbar starat ======================  */
 /* ================= navbar starat ======================  */
 /* ================= navbar starat ======================  */
