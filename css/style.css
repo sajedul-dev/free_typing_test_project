@@ -21,7 +21,39 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
 }
 
-/* ================= header starat ======================  */
+/* =============== preloader start ===================  */
+
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: #00C057;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preload{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    animation: preload 2s infinite alternate linear;
+}
+@keyframes preload{
+    from{
+        width: 20px;
+        height: 20px;
+    }to{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* =============== header starat ===================  */
 
 header{
     padding: 10px 0;
@@ -41,6 +73,19 @@ header{
 
 nav{
     padding: 25px 0;
+    transition: all linear 0.3s;
+}
+nav.fixed{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding: 15px 0;
+    background-color: blueviolet;
+}
+nav.fixed ul li a{
+    color: #fff;
 }
 .nav_wrapper{
     display: flex;
@@ -540,6 +585,25 @@ nav{
     color: #fff;
 }
 
+/* <!-- ============== chatbot start here ==============  --> */
+
+.chat{
+    width: 50px;
+    height: 50px;
+    background-color: #FFD000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.chat i{
+    font-size: 18px;
+    color: #000;
+}
 
 
 
