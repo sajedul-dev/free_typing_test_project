@@ -2,20 +2,46 @@
 
 @media(max-width:575.98px){
 
+    /* ================ header part start here ===============  */
+
+    header{
+        display: none;
+    }
+
     /* ================= navbar start ====================  */
+    nav{
+        padding: 0 0;
+    }
     .nav_wrapper {
-        flex-direction: column;
+        flex-direction: row;
+        position: relative;
+        padding: 0 10px;
+        background-color: green;
+    }
+    .nav_logo a img{
+        width: 100px;
+        height: 100px;
     }
     .nav_menu ul {
-        row-gap: 25px;
+        row-gap: 20px;
         text-align: center;
         flex-direction: column;
         margin-top: 25px;
     }
-    .nav_btn button {
-        margin-top: 25px;
+    .nav_menu {
+        display: none;
     }
-
+    .nav_menu.toggle{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 50px;
+        top: 90px;
+        background-color: #000000b6;
+    }
+    #toggleMenu{
+        display: block;
+    }    
     /* ================= banner part start ====================  */
 
     .typing {
@@ -62,6 +88,9 @@
         font-size: 18px;
         margin-left: 14px;
     }
+
+    /* <!-- ================ gallary part start ====================  --> */
+
 
 
 

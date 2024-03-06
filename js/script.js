@@ -30,4 +30,19 @@ $(function(){
         $("#preloader").delay(1000).fadeOut(500)
     })
 
+
+    // ============== toggle menu operation ================= 
+
+    $(function(){
+        $("#toggleMenu").click(function(){
+            $(".nav_menu").toggleClass("toggle");
+        })
+    })
+
+    // ================= venubox operation ===================== 
+
+    new VenoBox({
+        selector: '.my-video-links',
+    });
+
 });

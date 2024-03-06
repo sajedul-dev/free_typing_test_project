@@ -78,21 +78,26 @@ nav.fixed{
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
     padding: 15px 0;
-    background-color: blueviolet;
+    background-color: #FFFFFF;
 }
 nav.fixed ul li a{
-    color: #fff;
+    color: #0F0F10;
 }
 .nav_wrapper{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 .nav_menu ul{
     display: flex;
-    column-gap: 25px;
+    gap: 25px;
 }
 .nav_menu ul li a{
     color: #000;
@@ -108,9 +113,11 @@ nav.fixed ul li a{
     cursor: pointer;
 }
 .nav_btn button:hover{
-    background-color: #ef0c13;
+    background-color: red;
 }
-
+#toggleMenu{
+    display: none;
+}
 /* ================= banner part starat ====================  */
 
 #banner{
